@@ -1,0 +1,340 @@
+/* contenido general*/
+
+html{
+    font-size: 62.5%;
+}
+/* 1 rem = 10px */
+
+*{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    max-width: 1200px;
+}
+/*Despues de Resetear estas salvedades, me quedo toda 
+la estructura compacta. Intente a algunas cajas, agregar
+padding, margin, o algun efecto, pero me los saca de cuadro
+y me quedan desprolijos. El logo superior, va a ser mi duda 
+como estructurarlo, porque tambien se corre por demas. */
+
+
+body{
+overflow-x: hidden;
+
+}
+/* HEADER TODAS LAS PAGINAS*/
+
+
+.logotukafrente{
+background-color: black;
+width: 100%;
+height: 100%;
+border-radius: 2rem;
+
+} 
+
+    /* FORMATO DEL NAV GENERAL*/
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: grey;
+
+}
+ul li{
+    display: flex;
+    
+}
+ul li a {
+    color: white;
+    padding: 2rem;
+    font-style: normal;
+    font-weight: bolder;
+    text-decoration: none;
+    display: flex;
+    
+}
+ul li a:hover{
+    color:red;
+}
+
+.enlacespaginas{
+    display: flex;
+    margin-top: 1rem;
+}
+
+/*PIE DE PAGINA*/
+
+footer{
+    background-color: grey;
+}
+
+h3{
+    color: white;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+
+.instagram{
+    color: white;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+h3{
+    color: red;
+    font-size: 5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+    display: flex;
+    padding: 1rem;
+}
+
+/*GRID ESTRUCTURA INDEX*/
+
+.grid-header{
+    grid-area: header;
+    border-radius: 2rem;
+    /* margin-left: 0.5rem; */
+} 
+
+.grid-foto{
+    grid-area: foto;
+    display: flex;
+    flex-direction: column;
+    margin: none;
+    padding: none;
+    border-style: inherit;
+}
+.fotobarmanindex{
+    height: 100%;
+    border-radius: 2rem;
+}
+
+.grid-ubicacionindex{
+    grid-area: mapatexto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+p {
+    display: flex;
+    background-color: black;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:small;
+    font-style: normal;
+    text-align:left;
+    justify-content:left;
+    align-items:normal;
+    margin-left: 0.5rem;
+    padding: 4rem;
+    width: 100%;
+    border-radius: 1rem;
+    
+}
+.mapitaindex{
+    display:flex;
+    align-self: baseline;
+    align-content: center;
+    width: 100%;
+    height: 74%;
+    align-items: right;
+    margin: 0.5rem;
+    width: 100%;
+    height: 74%;
+    border-radius: 1rem;
+    
+}
+
+
+.grid-videomusica{
+    grid-area: video;  
+}
+
+.videomusicaindex{
+    height: 100%;
+    border-radius: 1rem;
+}
+.grid-footer{
+    grid-area: pie;
+    border-radius: 2rem;
+}
+
+.contenedorgeneralindex{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr;
+    grid-template-rows: 0.4fr 0.5fr 0.4fr 0.1fr;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: auto;
+    grid-template-areas:
+    "header header"
+    "foto mapatexto"
+    "video video" 
+    "pie pie"    
+    ;
+    grid-row-gap: 1rem;
+}
+
+
+
+
+/*GRID ESTRUCTURA GALERIA*/
+
+
+.grid-headergaleria{
+    grid-area: header;
+    border-radius: 1rem;
+    
+} 
+.grid-titulogaleria{
+    grid-area: titulo;
+    border-radius: 2rem;
+    width: 100%;
+    justify-items: center;
+}
+
+h2{
+    color:white;
+    background-color: grey;
+    font-size:5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+
+}
+
+.grid-fotosgaleria{
+    grid-area: fotitos;
+    border-radius: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    justify-self: center;
+    align-self: center;
+    
+}
+
+
+
+.grid-footergaleria{
+    grid-area: pie;
+    border-radius: 2rem;
+}
+
+.contenedorgeneralgaleria{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 0.2fr 0.5fr auto;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: auto;
+    grid-template-areas:
+    "header"
+    "titulo"
+    "fotitos" 
+    "pie"    
+    ;
+    grid-row-gap: 0.5rem;
+}
+
+
+
+
+/*GRID ESTRUCTURA UBICACION*/
+
+
+.grid-headerubicacion{
+    grid-area: header;
+    border-radius: 0.5rem;
+
+}
+
+.grid-mainubicacion{
+    grid-area: cuerpo;
+    border-radius: 0.5rem;
+    grid: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.grid-footerubicacion{
+    grid-area: pie;
+    border-radius: 0.5rem;
+
+}
+
+
+.parrafomapaubicacion{
+    font-size: medium;
+    
+
+}
+.mapitaubicacion{
+    height: 75%;
+
+}
+
+.contenedorgeneralubicacion{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 0.4fr 0.7fr 0.1fr;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: auto;
+    grid-template-areas:
+    "header"
+    "cuerpo"
+    "pie"    
+    ;
+    grid-row-gap: 1rem;
+}
+
+
+/*mobile*/
+@media screen and (min-width:320px) and (max-width:767px){
+    ul{
+        flex-wrap: nowrap;
+    }
+    
+    
+    ul li a{
+        color: yellow;
+        font-size: small;
+    }
+
+}
+
+
+
+
+/*tablet*/
+@media screen and (min-width:768px) and (max-width:1023px){
+    ul li a{
+        color: rgb(68, 0, 255);
+        font-size: medium
+    }
+
+
+}
+
+
+/*desktop*/
+@media screen and (min-width:1024px){
+    ul li a{
+        color: white;
+        font-size: 2rem;
+    }
+
+
+}
