@@ -105,11 +105,11 @@ h3{
 
 .grid-foto{
     grid-area: foto;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     margin: none;
     padding: none;
-    border-style: inherit;
+    border-style: inherit; */
 }
 .fotobarmanindex{
     height: 100%;
@@ -119,27 +119,27 @@ h3{
 .grid-ubicacionindex{
     grid-area: mapatexto;
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    /* flex-direction: row; */
+    /* width: 100%; */
 }
 p {
     display: flex;
-    background-color: black;
-    color: white;
+    /* background-color: black;
+    color: white; */
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:small;
+    /* font-size:small;
     font-style: normal;
     text-align:left;
     justify-content:left;
     align-items:normal;
     margin-left: 0.5rem;
     padding: 4rem;
-    width: 100%;
+    width: 100%; */
     border-radius: 1rem;
     
 }
 .mapitaindex{
-    display:flex;
+    /* display:flex;
     align-self: baseline;
     align-content: center;
     width: 100%;
@@ -147,7 +147,7 @@ p {
     align-items: right;
     margin: 0.5rem;
     width: 100%;
-    height: 74%;
+    height: 74%; */
     border-radius: 1rem;
     
 }
@@ -168,7 +168,7 @@ p {
 
 .contenedorgeneralindex{
     display: grid;
-    grid-template-columns: 1.5fr 1.5fr;
+    /* grid-template-columns: 1.5fr 1.5fr;
     grid-template-rows: 0.4fr 0.5fr 0.4fr 0.1fr;
     margin-left: 0.5rem;
     margin-top: 0.5rem;
@@ -180,7 +180,7 @@ p {
     "video video" 
     "pie pie"    
     ;
-    grid-row-gap: 1rem;
+    grid-row-gap: 1rem; */
 }
 
 
@@ -194,8 +194,7 @@ p {
     border-radius: 1rem;
     
 } 
-.grid-titulogaleria{
-    grid-area: titulo;
+.titulogaleria{
     border-radius: 2rem;
     width: 100%;
     justify-items: center;
@@ -204,7 +203,7 @@ p {
 h2{
     color:white;
     background-color: grey;
-    font-size:5rem;
+    font-size:4rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display:flex;
     justify-content: center;
@@ -213,8 +212,8 @@ h2{
 
 }
 
-.grid-fotosgaleria{
-    grid-area: fotitos;
+.grid-tituloyfotogaleria{
+    grid-area: tituloyfotos;
     border-radius: 2rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -222,8 +221,6 @@ h2{
     align-self: center;
     
 }
-
-
 
 .grid-footergaleria{
     grid-area: pie;
@@ -233,15 +230,14 @@ h2{
 .contenedorgeneralgaleria{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.3fr 0.2fr 0.5fr auto;
+    grid-template-rows: 0.3fr 1fr auto;
     margin-left: 0.5rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     margin-right: auto;
     grid-template-areas:
     "header"
-    "titulo"
-    "fotitos" 
+    "tituloyfotos" 
     "pie"    
     ;
     grid-row-gap: 0.5rem;
@@ -258,22 +254,6 @@ h2{
     border-radius: 0.5rem;
 
 }
-
-.grid-mainubicacion{
-    grid-area: cuerpo;
-    border-radius: 0.5rem;
-    grid: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.grid-footerubicacion{
-    grid-area: pie;
-    border-radius: 0.5rem;
-
-}
-
-
 .parrafomapaubicacion{
     font-size: medium;
     
@@ -284,10 +264,22 @@ h2{
 
 }
 
+.grid-mainubicacion{
+    grid-area: cuerpo;
+    border-radius: 0.5rem;
+    align-items: center;
+}
+
+.grid-footerubicacion{
+    grid-area: pie;
+    border-radius: 0.5rem;
+
+}
+
 .contenedorgeneralubicacion{
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 0.4fr 0.7fr 0.1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 0.6fr 0.1fr;
     margin-left: 0.5rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -302,39 +294,316 @@ h2{
 
 
 /*mobile*/
+
 @media screen and (min-width:320px) and (max-width:767px){
     ul{
-        flex-wrap: nowrap;
+        background-color: brown;
     }
-    
-    
+        
     ul li a{
         color: yellow;
         font-size: small;
     }
 
-}
+    /*GRID INDEX MOBILE*/
+    
+    .grid-header{
+        grid-area: header;
+        border-radius: 2rem;
+        margin-left: 0.5rem;
+    } 
+    /*main index*/
+    .grid-foto{
+        grid-area: foto;
+        display: flex;
+        /* flex-direction: column;*/
+        margin: none;
+        padding: none;
+        border-style: inherit;
+    }
+    .fotobarmanindex{
+        height: 100%;
+        border-radius: 2rem;
+        padding: 1rem; 
+    
+    }
+    /*aside index*/
+    .grid-ubicacionindex{
+        grid-area: mapatexto;
+        display: flex;
+        padding: 0.5rem;
+        flex-direction: row;
+        width: 100%;
+    }
+    p {
+        display: flex;
+        background-color: black;
+        color: white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:small;
+        font-style: normal;
+        text-align:left;
+        justify-content:left;
+        align-items:normal;
+        margin-left: 0.5rem;
+        padding: 4rem;
+        width: 89%;
+        border-radius: 1rem;
+        
+    }
+    .mapitaindex{
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+        width: 99%;
+        height: 73%;
+        margin: 0.5rem;
+        border-radius: 1rem;
+        
+    }
+    
+    /*section index*/
+    .grid-videomusica{
+        grid-area: video;  
+        padding: 0.5rem;
+    }
+    
+    .videomusicaindex{
+        height: 100%;
+        border-radius: 1rem;
+    }
+    /*footer index*/
+    .grid-footer{
+        grid-area: pie;
+        padding: 0.5rem;
+        border-radius: 2rem;
+    }
+    footer{
+        background-color: brown;
+    }
 
-
-
-
-/*tablet*/
-@media screen and (min-width:768px) and (max-width:1023px){
-    ul li a{
-        color: rgb(68, 0, 255);
-        font-size: medium
+    .contenedorgeneralindex{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.2fr 0.6fr  0.6fr 0.1fr;
+        margin-left: 0.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-right: auto;
+        grid-template-areas:
+        "header"
+        "foto"
+        "mapatexto"
+        "video" 
+        "pie"    
+        ;
+        grid-row-gap: 1rem;
     }
 
 
 }
 
+/*tablet*/
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    
+    
+    ul{
+        background-color: rgb(165, 91, 42);
+    }   
+
+    ul li a{
+        color: rgb(68, 0, 255);
+        font-size: medium
+    }
+
+    /* GRID INDEX TABLET*/
+
+    .grid-header{
+        grid-area: header;
+        border-radius: 2rem;
+        /* margin-left: 0.5rem; */
+    } 
+    
+    .grid-foto{
+        grid-area: foto;
+        display: flex;
+        flex-direction: column;
+        margin: none;
+        padding: none;
+        border-style: inherit;
+    }
+    .fotobarmanindex{
+        height: 100%;
+        border-radius: 2rem;
+    }
+    
+    .grid-ubicacionindex{
+        grid-area: mapatexto;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    p {
+        display: flex;
+        background-color: black;
+        color: white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:small;
+        font-style: normal;
+        text-align:left;
+        justify-content:left;
+        align-items:normal;
+        margin-left: 0.5rem;
+        padding: 4rem;
+        width: 100%;
+        border-radius: 1rem;
+        
+    }
+    .mapitaindex{
+        display:flex;
+        align-self: baseline;
+        align-content: center;
+        width: 100%;
+        height: 74%;
+        align-items: right;
+        margin: 0.5rem;
+        width: 100%;
+        height: 74%;
+        border-radius: 1rem;
+        
+    }
+    
+    
+    .grid-videomusica{
+        grid-area: video;  
+    }
+    
+    .videomusicaindex{
+        height: 100%;
+        border-radius: 1rem;
+    }
+    .grid-footer{
+        grid-area: pie;
+        border-radius: 2rem;
+    }
+    footer{
+        background-color: rgb(165, 91, 42);
+    }
+
+
+    .contenedorgeneralindex{
+        grid-template-columns: 1.5fr 1.5fr;
+        grid-template-rows: 0.4fr 0.5fr 0.4fr 0.1fr;
+        margin-left: 0.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-right: auto;
+        grid-template-areas:
+        "header header"
+        "foto mapatexto"
+        "video video" 
+        "pie pie"    
+        ;
+        grid-row-gap: 1rem;
+    }
+
+}
+
 
 /*desktop*/
+
 @media screen and (min-width:1024px){
     ul li a{
         color: white;
         font-size: 2rem;
     }
 
+    /*GRID INDEX PC*/
+    .grid-header{
+        grid-area: header;
+        border-radius: 2rem;
+        /* margin-left: 0.5rem; */
+    } 
+    
+    .grid-foto{
+        grid-area: foto;
+        display: flex;
+        flex-direction: column;
+        margin: none;
+        padding: none;
+        border-style: inherit;
+    }
+    .fotobarmanindex{
+        height: 100%;
+        border-radius: 2rem;
+    }
+    
+    .grid-ubicacionindex{
+        grid-area: mapatexto;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    p {
+        display: flex;
+        background-color: black;
+        color: white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:small;
+        font-style: normal;
+        text-align:left;
+        justify-content:left;
+        align-items:normal;
+        margin-left: 0.5rem;
+        padding: 4rem;
+        width: 100%;
+        border-radius: 1rem;
+        
+    }
+    .mapitaindex{
+        display:flex;
+        align-self: baseline;
+        align-content: center;
+        width: 100%;
+        height: 74%;
+        align-items: right;
+        margin: 0.5rem;
+        width: 100%;
+        height: 74%;
+        border-radius: 1rem;
+        
+    }
+    
+    
+    .grid-videomusica{
+        grid-area: video;  
+    }
+    
+    .videomusicaindex{
+        height: 100%;
+        border-radius: 1rem;
+    }
+    .grid-footer{
+        grid-area: pie;
+        border-radius: 2rem;
+    }
+    
+
+
+    .contenedorgeneralindex{
+        grid-template-columns: 1.5fr 1.5fr;
+        grid-template-rows: 0.4fr 0.5fr 0.4fr 0.1fr;
+        margin-left: 0.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-right: auto;
+        grid-template-areas:
+        "header header"
+        "foto mapatexto"
+        "video video" 
+        "pie pie"    
+        ;
+        grid-row-gap: 1rem;
+    }
 
 }
