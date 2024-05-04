@@ -185,70 +185,9 @@ p {
 
 
 
-
-/*GRID ESTRUCTURA GALERIA*/
-
-
-.grid-headergaleria{
-    grid-area: header;
-    border-radius: 1rem;
-    
-} 
-.titulogaleria{
-    border-radius: 2rem;
-    width: 100%;
-    justify-items: center;
-}
-
-h2{
-    color:white;
-    background-color: grey;
-    font-size:4rem;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display:flex;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 0.5rem;
-
-}
-
-.grid-tituloyfotogaleria{
-    grid-area: tituloyfotos;
-    border-radius: 2rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    justify-self: center;
-    align-self: center;
-    
-}
-
-.grid-footergaleria{
-    grid-area: pie;
-    border-radius: 2rem;
-}
-
-.contenedorgeneralgaleria{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.3fr 1fr auto;
-    margin-left: 0.5rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-right: auto;
-    grid-template-areas:
-    "header"
-    "tituloyfotos" 
-    "pie"    
-    ;
-    grid-row-gap: 0.5rem;
-}
-
-
-
-
 /*GRID ESTRUCTURA UBICACION*/
 
-
+/* 
 .grid-headerubicacion{
     grid-area: header;
     border-radius: 0.5rem;
@@ -291,6 +230,7 @@ h2{
     ;
     grid-row-gap: 1rem;
 }
+ */
 
 
 /*mobile*/
@@ -401,8 +341,65 @@ h2{
 
 
 }
+/*GRID ESTRUCTURA PROMOS MOBILE*/
 
-/*tablet*/
+.grid-headerpromos{
+    grid-area: headerpromos;
+    border-radius: 1rem;
+    color: white;
+    
+} 
+.titulopromos{
+    border-radius: 2rem;
+    width: 100%;
+    justify-items: center;
+    font-size: 6rem;
+    
+} 
+
+h2 .titulopromos{
+    font-size:10rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+
+}
+
+.grid-tituloyfotospromos{
+    grid-area: tituloyfotospromos;
+    border-radius: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    justify-self: center;
+    align-self: center;
+    
+}
+
+.grid-footergaleria{
+    grid-area: piepromos;
+    border-radius: 2rem;
+}
+
+.contenedorgeneralpromos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.5fr auto;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: auto;
+    grid-template-areas:
+    "headerpromos"
+    "tituloyfotospromos" 
+    "piepromos"    
+    ;
+    grid-row-gap: 0.5rem;
+    background-color: red;
+}
+
+/*TABLET*/
 
 @media screen and (min-width:768px) and (max-width:1023px){
     
@@ -589,7 +586,6 @@ h2{
     }
     
 
-
     .contenedorgeneralindex{
         grid-template-columns: 1.5fr 1.5fr;
         grid-template-rows: 0.4fr 0.5fr 0.4fr 0.1fr;
@@ -605,5 +601,227 @@ h2{
         ;
         grid-row-gap: 1rem;
     }
+}
+
+
+/*GRID GALERIA PC*/
+
+
+.grid-headergaleria{
+    grid-area: headergaleria;
+    border-radius: 2rem;
+}
+
+.titulogaleria{
+    border-radius: 2rem;
+    width: 100%;
+    justify-items: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+} 
+
+h2{
+    font-size:6rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 0.5rem;
 
 }
+
+.grid-tituloyfotogaleria{
+    grid-area: tituloyfotogaleria;
+    border-radius: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    justify-self: center;
+    align-self: center;  
+
+}
+
+.grid-footergaleria{
+    grid-area: piegaleria;
+    border-radius: 2rem;
+}
+
+.contenedorgeneralgaleria{
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 0.5fr auto;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: auto;
+    grid-template-areas:
+    "headergaleria"
+    "tituloyfotogaleria"
+    "piegaleria"    
+    ;
+    grid-row-gap: 1rem;
+    background-color: black;
+}
+
+
+
+/*GRID ESTRUCTURA PROMOS PC*/
+
+.grid-headerpromos{
+    grid-area: headerpromos;
+    border-radius: 1rem;
+    
+} 
+.titulopromos{
+    border-radius: 2rem;
+    width: 100%;
+    justify-items: center;
+    color: white;
+    
+} 
+
+h2 .titulopromos{
+    font-size:6rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+
+}
+
+.grid-tituloyfotospromos{
+    grid-area: tituloyfotospromos;
+    border-radius: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    justify-self: center;
+    align-self: center;
+    
+}
+
+.grid-footergaleria{
+    grid-area: piepromos;
+    border-radius: 2rem;
+}
+
+.contenedorgeneralpromos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.5fr auto;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: auto;
+    grid-template-areas:
+    "headerpromos"
+    "tituloyfotospromos" 
+    "piepromos"    
+    ;
+    grid-row-gap: 0.5rem;
+    background-color: black;
+}
+
+/*GRID ESTRUCTURA UBICACION PC*/
+
+
+.grid-headerubicacion{
+    grid-area: header;
+    border-radius: 0.5rem;
+
+}
+.parrafomapaubicacion{
+    font-size: medium;
+    
+
+}
+.mapitaubicacion{
+    height: 75%;
+
+}
+
+.grid-mainubicacion{
+    grid-area: cuerpo;
+    border-radius: 0.5rem;
+    align-items: center;
+}
+
+.grid-footerubicacion{
+    grid-area: pie;
+    border-radius: 0.5rem;
+
+}
+
+.contenedorgeneralubicacion{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 0.8fr 0.1fr;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: auto;
+    grid-template-areas:
+    "header"
+    "cuerpo"
+    "pie"    
+    ;
+    grid-row-gap: 1rem;
+    background-color: black;
+}
+
+/*GRID ESTRUCTURA PRODUCTOS PC*/
+
+.grid-headerproductos{
+    grid-area: headerproductos;
+    border-radius: 1rem;
+    
+} 
+.tituloproductos{
+    border-radius: 2rem;
+    width: 100%;
+    justify-items: center;
+    color: white;
+    
+} 
+
+h2 .tituloproductos{
+    font-size:6rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+
+}
+
+.grid-tituloyfotospromos{
+    grid-area: tituloyfotosproductos;
+    border-radius: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    justify-self: center;
+    align-self: center;
+    
+}
+
+.grid-footerproductos{
+    grid-area: pieproductos;
+    border-radius: 2rem;
+}
+
+.contenedorgeneralproductos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.5fr auto;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: auto;
+    grid-template-areas:
+    "headerproductos"
+    "tituloyfotosproductos" 
+    "pieproductos"    
+    ;
+    grid-row-gap: 0.5rem;
+    background-color: black;
+}
+
