@@ -1,0 +1,29 @@
+/* HEADER TODAS LAS PAGINAS*/
+
+.logotukafrente{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+} 
+    /* FORMATO DEL NAV GENERAL*/
+    ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: grey;
+    ul li{
+    display: flex;
+    ul li a {
+    color: white;
+    padding: 2rem;
+    font-style: normal;
+    font-weight: bolder;
+    text-decoration: none;
+    display: flex;
+    } 
+}
+}

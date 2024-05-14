@@ -1,0 +1,28 @@
+/* contenido general*/
+@import 'header';
+@import 'form';
+@import 'colores';
+@import 'footer';
+*{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/*TIPOGRAFIA*/
+$fuentetextos: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+$fuentemediana: medium;
+$fuentegrande: larger;
+$fuentebold: bold;
+
+
+html{
+    font-size: 62.5%;
+    /* 1 rem = 10px */
+    body{
+        overflow-x: hidden;
+    }    
+}  
+
+    
