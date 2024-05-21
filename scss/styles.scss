@@ -8,7 +8,6 @@
 @import 'variables';
 @import 'header';
 @import 'form';
-@import 'colores';
 @import 'footer';
 @import 'gridcontacto'; 
 @import 'gridgaleria';
@@ -50,7 +49,7 @@ html{
     background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
     ul li a{
     color: $amarillo;
-    font-size: small;
+    font-size: $fuentegrande;
 }
 }
 }
@@ -60,7 +59,7 @@ html{
     background-image: linear-gradient(to left, #053730, #0e6057, #158c83, #17bab4, #12ebe9);
     ul li a{
     color: $blanco;
-    font-size: 2rem;
+    font-size: $fuentegrande;
 }
 }
 }
