@@ -16,36 +16,104 @@
 }
 
 /* FORMATO DEL NAV GENERAL*/
-ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border-radius: 1rem;
-  background-color: grey;
+/*MOBILE GRAL*/
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  ul {
+    background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+  }
+  ul ul li {
+    display: flex;
+  }
+  ul ul li ul li a {
+    padding: 2rem;
+    font-style: medium;
+    transition: font-style 3s;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    color: yellow;
+    font-size: larger;
+  }
+  ul ul li ul li a ul li a:hover {
+    color: red;
+    font-style: larger;
+  }
+  ul ul li ul li a ul li a:hover .enlacespaginas {
+    display: flex;
+    margin-top: 1rem;
+  }
 }
-ul ul li {
-  display: flex;
+/*PC GRAL*/
+@media screen and (min-width: 1024px) {
+  ul {
+    background-image: linear-gradient(to left, #053730, #0e6057, #158c83, #17bab4, #12ebe9);
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+  }
+  ul ul li {
+    display: flex;
+  }
+  ul ul li ul li a {
+    color: white;
+    padding: 2rem;
+    font-style: medium;
+    transition: font-style 3s;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    font-size: larger;
+  }
+  ul ul li ul li a ul li a:hover {
+    color: red;
+    font-style: larger;
+  }
+  ul ul li ul li a ul li a:hover .enlacespaginas {
+    display: flex;
+    margin-top: 1rem;
+  }
 }
-ul ul li ul li a {
-  color: white;
-  padding: 2rem;
-  font-style: medium;
-  transition: font-style 3s;
-  font-weight: bold;
-  text-decoration: none;
-  display: flex;
+/*TABLET GRAL*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  ul {
+    background-image: linear-gradient(to bottom, #243705, #464800, #745300, #ac5500, #eb4912);
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+  }
+  ul ul li {
+    display: flex;
+  }
+  ul ul li ul li a {
+    color: grey;
+    padding: 2rem;
+    font-style: medium;
+    transition: font-style 3s;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+  }
+  ul ul li ul li a ul li a:hover {
+    color: red;
+    font-style: larger;
+  }
+  ul ul li ul li a ul li a:hover .enlacespaginas {
+    display: flex;
+    margin-top: 1rem;
+  }
 }
-ul ul li ul li a ul li a:hover {
-  color: red;
-  font-style: larger;
-}
-ul ul li ul li a ul li a:hover .enlacespaginas {
-  display: flex;
-  margin-top: 1rem;
-}
-
 /*GRID GALERIA PC*/
 .grid-headergaleria {
   grid-area: headergaleria;
