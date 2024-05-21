@@ -189,7 +189,25 @@ ul ul li ul li a ul li a:hover .enlacespaginas {
   border-radius: 2rem;
 }
 .grid-footer footer {
-  background-color: brown;
+  background-color: grey;
+}
+.grid-footer footer h3 {
+  color: white;
+  font-size: medium;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: bold;
+  display: flex;
+  padding: 1rem;
+}
+.grid-footer footer h3 .instagram {
+  animation-name: ampliarBotonIG;
+  animation-duration: 3s;
+  animation-delay: 0.4s;
+  animation-iteration-count: infinite;
+  color: white;
+  font-size: medium;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: bold;
 }
 
 .contenedorgeneralindex {
