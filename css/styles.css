@@ -46,28 +46,6 @@ ul ul li ul li a ul li a:hover .enlacespaginas {
   margin-top: 1rem;
 }
 
-footer {
-  background-color: grey;
-}
-footer h3 {
-  color: white;
-  font-size: medium;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: bold;
-  display: flex;
-  padding: 1rem;
-}
-footer h3 .instagram {
-  animation-name: ampliarBotonIG;
-  animation-duration: 3s;
-  animation-delay: 0.4s;
-  animation-iteration-count: infinite;
-  color: white;
-  font-size: medium;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: bold;
-}
-
 /*GRID GALERIA PC*/
 .grid-headergaleria {
   grid-area: headergaleria;
