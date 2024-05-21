@@ -58,12 +58,12 @@
             display: flex;
             color: $amarillo;
             font-size: $fuentegrande;
+            .enlacespaginas{
+                display: flex;
+                margin-top: 1rem;
             ul li a:hover{
                 color: $rojo;
                 font-style: $fuentegrande;
-                .enlacespaginas{
-                display: flex;
-                margin-top: 1rem;
             }
     }
     }
@@ -92,12 +92,13 @@
             text-decoration: none;
             display: flex;
             font-size: $fuentegrande;
+            .enlacespaginas{
+                display: flex;
+                margin-top: 1rem;
             ul li a:hover{
                 color: $rojo;
                 font-style: $fuentegrande;
-                .enlacespaginas{
-                display: flex;
-                margin-top: 1rem;
+
             }
     }
     }
@@ -124,12 +125,13 @@
             font-weight: $fuentebold;
             text-decoration: none;
             display: flex;
+            .enlacespaginas{
+                display: flex;
+                margin-top: 1rem;
             ul li a:hover{
                 color: $rojo;
                 font-style: $fuentegrande;
-                .enlacespaginas{
-            display: flex;
-            margin-top: 1rem;
+
             }
     }
     }

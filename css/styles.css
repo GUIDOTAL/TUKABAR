@@ -40,13 +40,13 @@
     color: yellow;
     font-size: larger;
   }
-  ul ul li ul li a ul li a:hover {
-    color: red;
-    font-style: larger;
-  }
-  ul ul li ul li a ul li a:hover .enlacespaginas {
+  ul ul li ul li a .enlacespaginas {
     display: flex;
     margin-top: 1rem;
+  }
+  ul ul li ul li a .enlacespaginas ul li a:hover {
+    color: red;
+    font-style: larger;
   }
 }
 /*PC GRAL*/
@@ -73,13 +73,13 @@
     display: flex;
     font-size: larger;
   }
-  ul ul li ul li a ul li a:hover {
-    color: red;
-    font-style: larger;
-  }
-  ul ul li ul li a ul li a:hover .enlacespaginas {
+  ul ul li ul li a .enlacespaginas {
     display: flex;
     margin-top: 1rem;
+  }
+  ul ul li ul li a .enlacespaginas ul li a:hover {
+    color: red;
+    font-style: larger;
   }
 }
 /*TABLET GRAL*/
@@ -105,13 +105,13 @@
     text-decoration: none;
     display: flex;
   }
-  ul ul li ul li a ul li a:hover {
-    color: red;
-    font-style: larger;
-  }
-  ul ul li ul li a ul li a:hover .enlacespaginas {
+  ul ul li ul li a .enlacespaginas {
     display: flex;
     margin-top: 1rem;
+  }
+  ul ul li ul li a .enlacespaginas ul li a:hover {
+    color: red;
+    font-style: larger;
   }
 }
 /*GRID GALERIA PC*/
