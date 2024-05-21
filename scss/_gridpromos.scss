@@ -1,0 +1,98 @@
+/*GRID ESTRUCTURA PROMOS MOBILE*/
+.grid-headerpromos{
+    grid-area: headerpromos;
+    border-radius: 1rem;
+    color: $blanco;
+    .titulopromos{
+    border-radius: 2rem;
+    width: 100%;
+    justify-items: center;
+    font-size: 6rem;
+    h2 .titulopromos{
+    font-size:10rem;
+    font-family: $fuentetextos;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+}
+}
+.grid-tituloyfotospromos{
+grid-area: tituloyfotospromos;
+border-radius: 2rem;
+margin-top: 0.5rem;
+margin-bottom: 0.5rem;
+justify-self: center;
+align-self: center;
+}
+
+.grid-footerpromos{
+    grid-area: piepromos;
+    border-radius: 2rem;
+}
+.contenedorgeneralpromos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.5fr auto;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: auto;
+    grid-template-areas:
+    "headerpromos"
+    "tituloyfotospromos" 
+    "piepromos"
+;
+    grid-row-gap: 0.5rem;
+    background-color: $rojo
+} 
+
+/*GRID ESTRUCTURA PROMOS PC*/
+.grid-headerpromos{
+    grid-area: headerpromos;
+    border-radius: 1rem;
+    .titulopromos{
+    border-radius: 2rem;
+    width: 100%;
+    justify-items: center;
+    color: $blanco;
+    h2 .titulopromos{
+    font-size:6rem;
+    font-family: $fuentetextos;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+}
+}    
+    .grid-tituloyfotospromos{
+    grid-area: tituloyfotospromos;
+    border-radius: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    justify-self: center;
+    align-self: center;
+    }
+    .grid-footerpromos{
+    grid-area: piepromos;
+    border-radius: 2rem;
+    }
+    .contenedorgeneralpromos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.5fr auto;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: auto;
+    grid-template-areas:
+    "headerpromos"
+    "tituloyfotospromos" 
+    "piepromos"
+    ;
+    grid-row-gap: 0.5rem;
+    background-color: $negro;
+    }
+    

@@ -1,0 +1,48 @@
+/*GRID ESTRUCTURA PRODUCTOS PC*/
+.grid-headerproductos{
+    grid-area: headerproductos;
+    border-radius: 1rem;
+    .tituloproductos{
+    border-radius: 2rem;
+    width: 100%;
+    justify-items: center;
+    color: white;
+    h2 .tituloproductos{
+    font-size:6rem;
+    font-family: $fuentetextos; 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+}
+}
+.grid-tituloyfotosproductos{
+    grid-area: tituloyfotosproductos;
+    border-radius: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    justify-self: center;
+    align-self: center;
+}
+.grid-footerproductos{
+    grid-area: pieproductos;
+    border-radius: 2rem;
+}
+.contenedorgeneralproductos{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.5fr auto;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: auto;
+    grid-template-areas:
+    "headerproductos"
+    "tituloyfotosproductos" 
+    "pieproductos"
+    ;
+    grid-row-gap: 0.5rem;
+    background-color: $negro;
+} 
+    
