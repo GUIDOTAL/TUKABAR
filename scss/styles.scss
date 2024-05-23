@@ -40,8 +40,10 @@ html{
         100%{
             transform: scale(1, 1);
         }
-    }    
-        
+    }  
+}    
+} 
+
 //     /*MOBILE GRAL*/
 //     @media screen and (min-width:320px) and (max-width:767px){
 //     ul{
@@ -72,33 +74,33 @@ html{
 // }
 // }
 // }
-        .grid-header{
-            grid-area: header;
-            border-radius: 2rem;
-            /* margin-left: 0.5rem; */
-    } 
-        .grid-foto{
-        grid-area: foto;
+    //     .grid-header{
+    //         grid-area: header;
+    //         border-radius: 2rem;
+    //         /* margin-left: 0.5rem; */
+    // } 
+    //     .grid-foto{
+    //     grid-area: foto;
         /* display: flex;
         flex-direction: column;
         margin: none;
         padding: none;
         border-style: inherit; */
-        .fotobarmanindex{
-        height: 100%;
-        border-radius: 2rem;
-                        }
-        }
-        .grid-ubicacionindex{
-        grid-area: mapatexto;
-        display: flex;
+        // .fotobarmanindex{
+        // height: 100%;
+        // border-radius: 2rem;
+        //                 }
+        // }
+        // .grid-ubicacionindex{
+        // grid-area: mapatexto;
+        // display: flex;
         /* flex-direction: row; */
-        /* width: 100%; */
-            p{
-            display: flex;
+        // /* width: 100%; */
+        //     p{
+        //     display: flex;
             /* background-color: black;
             color: white; */
-            font-family: $fuentetextos;
+            // font-family: $fuentetextos;
             /* font-size:small;
             font-style: normal;
             text-align:left;
@@ -107,8 +109,8 @@ html{
             margin-left: 0.5rem;
             padding: 4rem;
             width: 100%; */
-            border-radius: 1rem;
-            .mapitaindex{
+            // border-radius: 1rem;
+            // .mapitaindex{
             /* display:flex;
             align-self: baseline;
             align-content: center;
@@ -118,26 +120,26 @@ html{
             margin: 0.5rem;
             width: 100%;
             height: 74%; */
-            border-radius: 1rem;
-}
-}
-}
-        .grid-videomusica{
-        grid-area: video;
-        .videomusicaindex{
-        height: 100%;
-        border-radius: 1rem;           
-    }
-}
-        .grid-footer{
-            grid-area: pie;
-            border-radius: 2rem;
-            background-color: $gris;
-            color: $blanco;
-    }
+//             border-radius: 1rem;
+// }
+// }
+// }
+//         .grid-videomusica{
+//         grid-area: video;
+//         .videomusicaindex{
+//         height: 100%;
+//         border-radius: 1rem;           
+//     }
+// }
+    //     .grid-footer{
+    //         grid-area: pie;
+    //         border-radius: 2rem;
+    //         background-color: $gris;
+    //         color: $blanco;
+    // }
     
-    .contenedorgeneralindex{
-    display: grid;
+    // .contenedorgeneralindex{
+    // display: grid;
     /* grid-template-columns: 1.5fr 1.5fr;
     grid-template-rows: 0.4fr 0.5fr 0.4fr 0.1fr;
     margin-left: 0.5rem;
@@ -151,6 +153,6 @@ html{
     "pie pie"    
     ;
     grid-row-gap: 1rem; */
-    }
-}
-}    
+    // }
+// }
+// }    
