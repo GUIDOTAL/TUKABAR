@@ -390,7 +390,9 @@
 
 .grid-footer {
   grid-area: pie;
-  border-radius: 2rem;
+  background-color: grey;
+  color: white;
+  border-radius: 4rem;
 }
 
 .contenedorgeneralindex {
@@ -674,6 +676,8 @@ html body .grid-videomusica .videomusicaindex {
 html body .grid-footer {
   grid-area: pie;
   border-radius: 2rem;
+  background-color: grey;
+  color: white;
 }
 html body .contenedorgeneralindex {
   display: grid;

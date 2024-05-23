@@ -251,7 +251,10 @@ border-radius: 2rem;
 }
 .grid-footer{
     grid-area: pie;
-    border-radius: 2rem;
+    background-color: $gris;
+    color: $blanco;
+    border-radius: 4rem;
+
 }
 
 .contenedorgeneralindex{
