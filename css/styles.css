@@ -99,7 +99,7 @@
   ul ul li ul li a {
     color: grey;
     padding: 2rem;
-    font-style: medium;
+    font-style: larger;
     transition: font-style 3s;
     font-weight: bold;
     text-decoration: none;
@@ -148,27 +148,6 @@
 .grid-footergaleria {
   grid-area: piegaleria;
   border-radius: 2rem;
-}
-.grid-footergaleria footer {
-  background-color: grey;
-}
-.grid-footergaleria footer h3 {
-  color: white;
-  font-size: medium;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: bold;
-  display: flex;
-  padding: 1rem;
-}
-.grid-footergaleria footer h3 .instagram {
-  animation-name: ampliarBotonIG;
-  animation-duration: 3s;
-  animation-delay: 0.4s;
-  animation-iteration-count: infinite;
-  color: white;
-  font-size: medium;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: bold;
 }
 
 .contenedorgeneralgaleria {
@@ -256,27 +235,6 @@
   padding: 0.5rem;
   border-radius: 2rem;
 }
-.grid-footer footer {
-  background-color: grey;
-}
-.grid-footer footer h3 {
-  color: white;
-  font-size: medium;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: bold;
-  display: flex;
-  padding: 1rem;
-}
-.grid-footer footer h3 .instagram {
-  animation-name: ampliarBotonIG;
-  animation-duration: 3s;
-  animation-delay: 0.4s;
-  animation-iteration-count: infinite;
-  color: white;
-  font-size: medium;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-style: bold;
-}
 
 .contenedorgeneralindex {
   grid-template-columns: 1fr;
@@ -355,9 +313,6 @@
 .grid-footer {
   grid-area: pie;
   border-radius: 2rem;
-}
-.grid-footer footer {
-  background-color: rgb(165, 91, 42);
 }
 
 .contenedorgeneralindex {
@@ -641,9 +596,6 @@ html {
 }
 html body {
   overflow-x: hidden;
-  /*MOBILE GRAL*/
-  /*PC GRAL*/
-  /*TABLET GRAL*/
 }
 @keyframes ampliarBotonIG {
   0% {
@@ -660,33 +612,6 @@ html body {
   }
   100% {
     transform: scale(1, 1);
-  }
-}
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  html body ul {
-    background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
-  }
-  html body ul ul li a {
-    color: yellow;
-    font-size: larger;
-  }
-}
-@media screen and (min-width: 1024px) {
-  html body ul {
-    background-image: linear-gradient(to left, #053730, #0e6057, #158c83, #17bab4, #12ebe9);
-  }
-  html body ul ul li a {
-    color: white;
-    font-size: larger;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  html body ul {
-    background-image: linear-gradient(to bottom, #243705, #464800, #745300, #ac5500, #eb4912);
-  }
-  html body ul ul li a {
-    color: rgb(68, 0, 255);
-    font-size: medium;
   }
 }
 html body .grid-header {

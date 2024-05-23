@@ -7,7 +7,6 @@
 }
 @import 'variables';
 @import 'header';
-@import 'form';
 @import 'footer';
 @import 'gridcontacto'; 
 @import 'gridgaleria';
@@ -43,36 +42,36 @@ html{
         }
     }    
         
-    /*MOBILE GRAL*/
-    @media screen and (min-width:320px) and (max-width:767px){
-    ul{
-    background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
-    ul li a{
-    color: $amarillo;
-    font-size: $fuentegrande;
-}
-}
-}
-    /*PC GRAL*/
-    @media screen and (min-width:1024px){
-    ul {
-    background-image: linear-gradient(to left, #053730, #0e6057, #158c83, #17bab4, #12ebe9);
-    ul li a{
-    color: $blanco;
-    font-size: $fuentegrande;
-}
-}
-}
-    /*TABLET GRAL*/
-    @media screen and (min-width:768px) and (max-width:1023px){
-    ul{
-    background-image: linear-gradient(to bottom, #243705, #464800, #745300, #ac5500, #eb4912);
-    ul li a{
-    color: $azul;
-    font-size: $fuentemediana;
-}
-}
-}
+//     /*MOBILE GRAL*/
+//     @media screen and (min-width:320px) and (max-width:767px){
+//     ul{
+//     background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
+//     ul li a{
+//     color: $amarillo;
+//     font-size: $fuentegrande;
+// }
+// }
+// }
+//     /*PC GRAL*/
+//     @media screen and (min-width:1024px){
+//     ul {
+//     background-image: linear-gradient(to left, #053730, #0e6057, #158c83, #17bab4, #12ebe9);
+//     ul li a{
+//     color: $blanco;
+//     font-size: $fuentegrande;
+// }
+// }
+// }
+//     /*TABLET GRAL*/
+//     @media screen and (min-width:768px) and (max-width:1023px){
+//     ul{
+//     background-image: linear-gradient(to bottom, #243705, #464800, #745300, #ac5500, #eb4912);
+//     ul li a{
+//     color: $azul;
+//     font-size: $fuentemediana;
+// }
+// }
+// }
         .grid-header{
             grid-area: header;
             border-radius: 2rem;
