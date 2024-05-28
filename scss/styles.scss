@@ -66,7 +66,6 @@ html{
                 margin-top: 1rem;
                 background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
                 ul{
-                    background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
                     list-style-type: none;
                     display: flex;
                     flex-direction: row;
@@ -192,7 +191,7 @@ html{
                                             font-weight: $fuentebold;
                                             text-decoration: none;
                                             display: flex;
-                                            color: $amarillo;
+                                            color: $blanco;
                                             font-size: $fuentegrande;
                                             &:hover{
                                                     color: $rojo;
@@ -201,9 +200,7 @@ html{
                                             }
                                         }
                                     }
-                                    .divdelinstagram{
-                                        display:block;
-                                                .instagram{
+                                            .instagram{
                                                 display:flex;
                                                 align-items: left;
                                                 animation-name: ampliarBotonIG;
@@ -233,10 +230,9 @@ html{
                                                     }
                                                 }   
                                                 .logoig{
-                                                    display:block;
                                                     display:flex;
-                                                    flex-direction: center;
-                                                    align-items: center;
+                                                    flex-direction: left;
+                                                    align-items: left;
                                                     width: 2%;
                                                     height: 2%;
                                                 }
@@ -244,10 +240,9 @@ html{
                                     }
                                     }
                                 }
-
         /*TABLET GRAL*/
         @media screen and (min-width:768px) and (max-width:1023px){
-        font-size: 62.5%;
+        // font-size: 62.5%;
         /* 1 rem = 10px */
             body{
                 overflow-x: hidden;
@@ -285,6 +280,7 @@ html{
                                             }
                                         }
                                     }
+                                }
                                     footer{
                                         display: flex;
                                         margin-top: 1rem;
@@ -317,6 +313,7 @@ html{
                                                         .instagram{
                                                         display:inline;
                                                         display:flex;
+                                                        flex-direction: row;
                                                         align-items: left;
                                                         animation-name: ampliarBotonIG;
                                                         animation-duration: 3s;
@@ -349,12 +346,10 @@ html{
                                                             display:flex;
                                                             flex-direction: left;
                                                             align-items: left;
-                                                            width: 1%;
-                                                            height: 1%;
+                                                            width: 2%;
+                                                            height: 2%;
                                                         }
                                                         }
                                             }
-                                        }
-                                    }
-                                }      
+                                        }    
 
