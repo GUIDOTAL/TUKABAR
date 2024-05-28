@@ -646,10 +646,9 @@ html {
   html body footer {
     display: flex;
     margin-top: 1rem;
-    background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
+    background-image: linear-gradient(to left, #053730, #0e6057, #158c83, #17bab4, #12ebe9);
   }
   html body footer ul {
-    background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -675,6 +674,9 @@ html {
     font-style: larger;
   }
   html body footer .instagram {
+    display: block;
+    display: flex;
+    align-items: left;
     animation-name: ampliarBotonIG;
     animation-duration: 3s;
     animation-delay: 0.4s;
@@ -702,11 +704,12 @@ html {
     }
   }
   html body footer .logoig {
+    display: block;
     display: flex;
     flex-direction: left;
     align-items: left;
-    width: 2%;
-    height: 2%;
+    width: 1%;
+    height: 1%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
