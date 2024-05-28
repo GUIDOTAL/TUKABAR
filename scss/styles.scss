@@ -6,8 +6,6 @@
     max-width: 1200px;
 }
 @import 'variables';
-@import 'header';
-@import 'footer';
 @import 'gridindex';
 @import 'gridgaleria';
 @import 'gridproductos';
@@ -109,6 +107,34 @@ html{
                     }
                     }
                     }
+                }
+                footer{
+                    ul{
+                        background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
+                        list-style-type: none;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 1rem;
+                            li{
+                                display: flex;        
+                                a{
+                                    padding: 2rem;
+                                    font-style: $fuentegrande;
+                                    transition: font-style 3s;
+                                    font-weight: $fuentebold;
+                                    text-decoration: none;
+                                    display: flex;
+                                    color: $amarillo;
+                                    font-size: $fuentegrande;
+                                        &:hover{
+                                            color: $rojo;
+                                            font-style: $fuentegrande;
+                                        }
+                                }
+                                }
+                                }
                 }
                 }
 
