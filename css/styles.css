@@ -486,13 +486,13 @@
 /*TIPOGRAFIA*/
 html {
   /*MOBILE GRAL*/
+  /*PC GRAL*/
+  /*TABLET GRAL*/
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   html {
     font-size: 62.5%;
     /* 1 rem = 10px */
-    /*PC GRAL*/
-    /*TABLET GRAL*/
   }
   html body {
     overflow-x: hidden;
@@ -536,6 +536,7 @@ html {
   html body footer {
     display: flex;
     margin-top: 1rem;
+    background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
   }
   html body footer ul {
     background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
@@ -590,8 +591,15 @@ html {
       transform: scale(1, 1);
     }
   }
+  html body footer .instagram .logoig {
+    display: flex;
+    flex-direction: left;
+    align-items: left;
+    width: 2%;
+    height: 2%;
+  }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   html {
     font-size: 62.5%;
     /* 1 rem = 10px */
@@ -638,6 +646,7 @@ html {
   html footer {
     display: flex;
     margin-top: 1rem;
+    background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
   }
   html footer ul {
     background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
@@ -692,8 +701,15 @@ html {
       transform: scale(1, 1);
     }
   }
+  html footer .instagram .logoig {
+    display: flex;
+    flex-direction: left;
+    align-items: left;
+    width: 2%;
+    height: 2%;
+  }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   html {
     font-size: 62.5%;
     /* 1 rem = 10px */
@@ -736,7 +752,38 @@ html {
     color: red;
     font-style: larger;
   }
-  html body .enlacespaginas .instagram {
+  html body .enlacespaginas footer {
+    display: flex;
+    margin-top: 1rem;
+    background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
+  }
+  html body .enlacespaginas footer ul {
+    background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+  }
+  html body .enlacespaginas footer ul li {
+    display: flex;
+  }
+  html body .enlacespaginas footer ul li a {
+    padding: 2rem;
+    font-style: larger;
+    transition: font-style 3s;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    color: yellow;
+    font-size: larger;
+  }
+  html body .enlacespaginas footer ul li a:hover {
+    color: red;
+    font-style: larger;
+  }
+  html body .enlacespaginas footer .instagram {
     animation-name: ampliarBotonIG;
     animation-duration: 3s;
     animation-delay: 0.4s;
@@ -762,5 +809,12 @@ html {
     100% {
       transform: scale(1, 1);
     }
+  }
+  html body .enlacespaginas footer .instagram .logoig {
+    display: flex;
+    flex-direction: left;
+    align-items: left;
+    width: 2%;
+    height: 2%;
   }
 }/*# sourceMappingURL=styles.css.map */
