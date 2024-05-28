@@ -643,12 +643,12 @@ html {
     color: red;
     font-style: larger;
   }
-  html footer {
+  html body footer {
     display: flex;
     margin-top: 1rem;
     background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
   }
-  html footer ul {
+  html body footer ul {
     background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
     list-style-type: none;
     display: flex;
@@ -657,10 +657,10 @@ html {
     align-items: center;
     border-radius: 1rem;
   }
-  html footer ul li {
+  html body footer ul li {
     display: flex;
   }
-  html footer ul li a {
+  html body footer ul li a {
     padding: 2rem;
     font-style: larger;
     transition: font-style 3s;
@@ -670,11 +670,11 @@ html {
     color: yellow;
     font-size: larger;
   }
-  html footer ul li a:hover {
+  html body footer ul li a:hover {
     color: red;
     font-style: larger;
   }
-  html footer .instagram {
+  html body footer .instagram {
     animation-name: ampliarBotonIG;
     animation-duration: 3s;
     animation-delay: 0.4s;
@@ -701,7 +701,7 @@ html {
       transform: scale(1, 1);
     }
   }
-  html footer .instagram .logoig {
+  html body footer .logoig {
     display: flex;
     flex-direction: left;
     align-items: left;
