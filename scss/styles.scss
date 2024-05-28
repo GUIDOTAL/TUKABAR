@@ -268,7 +268,8 @@ html{
                                     a{
                                         color: $gris;
                                         padding: 2rem;
-                                        font-style: $fuentegrande;
+                                        font-style: $fuentetextos;
+                                        font-size: $fuentegrande;
                                         transition: font-style 3s;
                                         font-weight: $fuentebold;
                                         text-decoration: none;
@@ -296,12 +297,12 @@ html{
                                                 display: flex;        
                                                 a{
                                                     padding: 2rem;
-                                                    font-style: $fuentegrande;
+                                                    font-style: $fuentetextos;
                                                     transition: font-style 3s;
                                                     font-weight: $fuentebold;
                                                     text-decoration: none;
                                                     display: flex;
-                                                    color: $amarillo;
+                                                    color: $gris;
                                                     font-size: $fuentegrande;
                                                     &:hover{
                                                             color: $rojo;
@@ -311,9 +312,9 @@ html{
                                                 }
                                             }
                                                         .instagram{
-                                                        display:inline;
+                                                        display:block;
                                                         display:flex;
-                                                        flex-direction: row;
+                                                        flex-direction: column;
                                                         align-items: left;
                                                         animation-name: ampliarBotonIG;
                                                         animation-duration: 3s;
@@ -342,12 +343,12 @@ html{
                                                             }
                                                         }   
                                                         .logoig{
-                                                            display:inline;
+                                                            display:block;
                                                             display:flex;
                                                             flex-direction: left;
                                                             align-items: left;
-                                                            width: 2%;
-                                                            height: 2%;
+                                                            width: 1%;
+                                                            height: 1%;
                                                         }
                                                         }
                                             }
