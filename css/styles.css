@@ -312,16 +312,16 @@
   align-self: center;
 }
 .grid-tituloyfotosproductos .tituloproductos {
+  display: flex;
+  justify-content: center;
   border-radius: 2rem;
   width: 100%;
   justify-items: center;
+  color: white;
 }
 .grid-tituloyfotosproductos .tituloproductos h2 {
   font-size: 6rem;
-  color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  display: flex;
-  justify-content: center;
   width: 100%;
   margin-bottom: 0.5rem;
 }
