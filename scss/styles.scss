@@ -201,8 +201,10 @@ html{
                                             }
                                         }
                                     }
-                                                .instagram{
-                                                display:block;
+                                    .divdelinstagram{
+                                        display:block;
+                                    }    
+                                    .instagram{
                                                 display:flex;
                                                 align-items: left;
                                                 animation-name: ampliarBotonIG;
@@ -236,8 +238,8 @@ html{
                                                     display:flex;
                                                     flex-direction: left;
                                                     align-items: left;
-                                                    width: 1%;
-                                                    height: 1%;
+                                                    width: 2%;
+                                                    height: 2%;
                                                 }
                                     }
                                     }

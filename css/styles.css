@@ -673,8 +673,10 @@ html {
     color: red;
     font-style: larger;
   }
-  html body footer .instagram {
+  html body footer .divdelinstagram {
     display: block;
+  }
+  html body footer .instagram {
     display: flex;
     align-items: left;
     animation-name: ampliarBotonIG;
@@ -708,8 +710,8 @@ html {
     display: flex;
     flex-direction: left;
     align-items: left;
-    width: 1%;
-    height: 1%;
+    width: 2%;
+    height: 2%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
