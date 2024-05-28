@@ -311,6 +311,14 @@ html{
                                                     }
                                                 }
                                             }
+                                            .logoig{
+                                                display:block;
+                                                display:flex;
+                                                flex-direction: left;
+                                                align-items: left;
+                                                width: 1%;
+                                                height: 1%;
+                                            }
                                                         .instagram{
                                                         display:block;
                                                         display:flex;
@@ -342,14 +350,6 @@ html{
                                                                 transform: scale(1, 1);
                                                             }
                                                         }   
-                                                        .logoig{
-                                                            display:block;
-                                                            display:flex;
-                                                            flex-direction: left;
-                                                            align-items: left;
-                                                            width: 1%;
-                                                            height: 1%;
-                                                        }
                                                         }
                                             }
                                         }    

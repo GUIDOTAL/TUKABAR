@@ -781,6 +781,14 @@ html {
     color: red;
     font-style: larger;
   }
+  body footer .logoig {
+    display: block;
+    display: flex;
+    flex-direction: left;
+    align-items: left;
+    width: 1%;
+    height: 1%;
+  }
   body footer .instagram {
     display: block;
     display: flex;
@@ -811,13 +819,5 @@ html {
     100% {
       transform: scale(1, 1);
     }
-  }
-  body footer .logoig {
-    display: block;
-    display: flex;
-    flex-direction: left;
-    align-items: left;
-    width: 1%;
-    height: 1%;
   }
 }/*# sourceMappingURL=styles.css.map */
