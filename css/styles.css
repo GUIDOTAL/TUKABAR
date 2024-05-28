@@ -548,6 +548,8 @@ html {
     display: flex;
     flex-direction: column;
     align-items: left;
+    width: 2rem;
+    height: 2rem;
   }
   @keyframes ampliarBotonIG {
     0% {
@@ -625,6 +627,8 @@ html {
     display: flex;
     flex-direction: column;
     align-items: left;
+    width: 2rem;
+    height: 2rem;
   }
   @keyframes ampliarBotonIG {
     0% {
@@ -701,6 +705,8 @@ html {
     display: flex;
     flex-direction: column;
     align-items: left;
+    width: 2rem;
+    height: 2rem;
   }
   @keyframes ampliarBotonIG {
     0% {
