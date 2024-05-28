@@ -530,6 +530,10 @@ html {
     color: yellow;
     font-size: larger;
   }
+  html body .enlacespaginas ul li a:hover {
+    color: red;
+    font-style: larger;
+  }
   html body .enlacespaginas ul li a .instagram {
     animation-name: ampliarBotonIG;
     animation-duration: 3s;
@@ -539,6 +543,11 @@ html {
     font-size: medium;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-style: bold;
+  }
+  html body .enlacespaginas ul li a .logoig {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
   }
   @keyframes ampliarBotonIG {
     0% {
@@ -556,10 +565,6 @@ html {
     100% {
       transform: scale(1, 1);
     }
-  }
-  html body .enlacespaginas ul li a:hover {
-    color: red;
-    font-style: larger;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -602,6 +607,10 @@ html {
     display: flex;
     font-size: larger;
   }
+  html body .enlacespaginas ul li a:hover {
+    color: red;
+    font-style: larger;
+  }
   html body .enlacespaginas ul li a .instagram {
     animation-name: ampliarBotonIG;
     animation-duration: 3s;
@@ -611,6 +620,11 @@ html {
     font-size: medium;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-style: bold;
+  }
+  html body .enlacespaginas ul li a .logoig {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
   }
   @keyframes ampliarBotonIG {
     0% {
@@ -628,10 +642,6 @@ html {
     100% {
       transform: scale(1, 1);
     }
-  }
-  html body .enlacespaginas ul li a:hover {
-    color: red;
-    font-style: larger;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -673,6 +683,10 @@ html {
     text-decoration: none;
     display: flex;
   }
+  html body .enlacespaginas ul li a:hover {
+    color: red;
+    font-style: larger;
+  }
   html body .enlacespaginas ul li a .instagram {
     animation-name: ampliarBotonIG;
     animation-duration: 3s;
@@ -682,6 +696,11 @@ html {
     font-size: medium;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-style: bold;
+  }
+  html body .enlacespaginas ul li a .logoig {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
   }
   @keyframes ampliarBotonIG {
     0% {
@@ -699,10 +718,6 @@ html {
     100% {
       transform: scale(1, 1);
     }
-  }
-  html body .enlacespaginas ul li a:hover {
-    color: red;
-    font-style: larger;
   }
 }
 

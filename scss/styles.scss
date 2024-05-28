@@ -110,6 +110,10 @@ html{
                         display: flex;
                         color: $amarillo;
                         font-size: $fuentegrande;
+                        &:hover{
+                            color: $rojo;
+                            font-style: $fuentegrande;
+                                }
                             .instagram{
                                 animation-name: ampliarBotonIG;
                                 animation-duration: 3s;
@@ -120,6 +124,11 @@ html{
                                 font-family: $fuentetextos;
                                 font-style: $fuentebold;
                                 }
+                            .logoig{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: left;
+                            }
                                 @keyframes ampliarBotonIG{
                                     0%{
                                         transform: scale(1, 1);
@@ -136,10 +145,6 @@ html{
                                     100%{
                                         transform: scale(1, 1);
                                     }
-                                }
-                                    &:hover{
-                                        color: $rojo;
-                                        font-style: $fuentegrande;
                                 }
                     }
                     }
@@ -183,43 +188,50 @@ html{
                                         text-decoration: none;
                                         display: flex;
                                         font-size: $fuentegrande;
-                                        .instagram{
-                                            animation-name: ampliarBotonIG;
-                                            animation-duration: 3s;
-                                            animation-delay: 0.4s;
-                                            animation-iteration-count: infinite;
-                                            color: $blanco;
-                                            font-size: $fuentemediana;
-                                            font-family: $fuentetextos;
-                                            font-style: $fuentebold;
+                                        &:hover{
+                                            color: $rojo;
+                                            font-style: $fuentegrande;
+                                                }
+                                            .instagram{
+                                                animation-name: ampliarBotonIG;
+                                                animation-duration: 3s;
+                                                animation-delay: 0.4s;
+                                                animation-iteration-count: infinite;
+                                                color: $blanco;
+                                                font-size: $fuentemediana;
+                                                font-family: $fuentetextos;
+                                                font-style: $fuentebold;
+                                                }
+                                            .logoig{
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: left;
                                             }
-                                            @keyframes ampliarBotonIG{
-                                                0%{
-                                                    transform: scale(1, 1);
+                                                @keyframes ampliarBotonIG{
+                                                    0%{
+                                                        transform: scale(1, 1);
+                                                    }
+                                                    25%{
+                                                        transform: scale(1.1, 1.1);
+                                                    }
+                                                    50%{
+                                                        transform: scale(1.2, 1.2);
+                                                    }
+                                                    75%{
+                                                        transform: scale(1.3, 1.3);
+                                                    }
+                                                    100%{
+                                                        transform: scale(1, 1);
+                                                    }
                                                 }
-                                                25%{
-                                                    transform: scale(1.1, 1.1);
-                                                }
-                                                50%{
-                                                    transform: scale(1.2, 1.2);
-                                                }
-                                                75%{
-                                                    transform: scale(1.3, 1.3);
-                                                }
-                                                100%{
-                                                    transform: scale(1, 1);
-                                                }
-                                            }
-                                                &:hover{
-                                                    color: $rojo;
-                                                    font-style: $fuentegrande;
-                                            }
-                                }
-                                }
+                                    }
+                                    }
+                                    }
                                 }
                             }
                         }
-                }
+                    
+                
             
         /*TABLET GRAL*/
         @media screen and (min-width:768px) and (max-width:1023px){
@@ -254,45 +266,50 @@ html{
                                         font-weight: $fuentebold;
                                         text-decoration: none;
                                         display: flex;
-                                        .instagram{
-                                            animation-name: ampliarBotonIG;
-                                            animation-duration: 3s;
-                                            animation-delay: 0.4s;
-                                            animation-iteration-count: infinite;
-                                            color: $blanco;
-                                            font-size: $fuentemediana;
-                                            font-family: $fuentetextos;
-                                            font-style: $fuentebold;
+                                        &:hover{
+                                            color: $rojo;
+                                            font-style: $fuentegrande;
+                                                }
+                                            .instagram{
+                                                animation-name: ampliarBotonIG;
+                                                animation-duration: 3s;
+                                                animation-delay: 0.4s;
+                                                animation-iteration-count: infinite;
+                                                color: $blanco;
+                                                font-size: $fuentemediana;
+                                                font-family: $fuentetextos;
+                                                font-style: $fuentebold;
+                                                }
+                                            .logoig{
+                                                display: flex;
+                                                flex-direction: column;
+                                                align-items: left;
                                             }
-                                            @keyframes ampliarBotonIG{
-                                                0%{
-                                                    transform: scale(1, 1);
+                                                @keyframes ampliarBotonIG{
+                                                    0%{
+                                                        transform: scale(1, 1);
+                                                    }
+                                                    25%{
+                                                        transform: scale(1.1, 1.1);
+                                                    }
+                                                    50%{
+                                                        transform: scale(1.2, 1.2);
+                                                    }
+                                                    75%{
+                                                        transform: scale(1.3, 1.3);
+                                                    }
+                                                    100%{
+                                                        transform: scale(1, 1);
+                                                    }
                                                 }
-                                                25%{
-                                                    transform: scale(1.1, 1.1);
-                                                }
-                                                50%{
-                                                    transform: scale(1.2, 1.2);
-                                                }
-                                                75%{
-                                                    transform: scale(1.3, 1.3);
-                                                }
-                                                100%{
-                                                    transform: scale(1, 1);
-                                                }
-                                            }
-                                                &:hover{
-                                                    color: $rojo;
-                                                    font-style: $fuentegrande;
-                                            }
+                                    }
+                                    }
+                                    }
                                 }
                             }
-                        }
-                    }
-                }
-            }
+                        }             
         }
-        
+
                             
 
     //     .grid-header{
