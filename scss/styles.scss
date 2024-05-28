@@ -91,14 +91,14 @@ html{
             .enlacespaginas{
                 display: flex;
                 margin-top: 1rem;
-            ul{
-            background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
-            list-style-type: none;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            border-radius: 1rem;
+                ul{
+                    background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 1rem;
                 li{
                     display: flex;        
                     a{
@@ -114,7 +114,39 @@ html{
                             color: $rojo;
                             font-style: $fuentegrande;
                                 }
-                            .instagram{
+                            }
+                        }
+                    }
+                }
+
+        footer{
+            .enlacespaginas{
+                display: flex;
+                margin-top: 1rem;
+                ul{
+                    background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 1rem;
+                    li{
+                        display: flex;        
+                        a{
+                            padding: 2rem;
+                            font-style: $fuentegrande;
+                            transition: font-style 3s;
+                            font-weight: $fuentebold;
+                            text-decoration: none;
+                            display: flex;
+                            color: $amarillo;
+                            font-size: $fuentegrande;
+                                &:hover{
+                                    color: $rojo;
+                                    font-style: $fuentegrande;
+                                }
+                                .instagram{
                                 animation-name: ampliarBotonIG;
                                 animation-duration: 3s;
                                 animation-delay: 0.4s;
@@ -124,13 +156,13 @@ html{
                                 font-family: $fuentetextos;
                                 font-style: $fuentebold;
                                 }
-                            .logoig{
+                                .logoig{
                                 display: flex;
                                 flex-direction: column;
                                 align-items: left;
                                 width: 1%;
                                 height: 1%;
-                            }
+                                }
                                 @keyframes ampliarBotonIG{
                                     0%{
                                         transform: scale(1, 1);
@@ -153,8 +185,8 @@ html{
                     }
                 }
             }
-        }
-    
+        }       
+    }          
 
         /*PC GRAL*/
         @media screen and (min-width:1024px){
@@ -194,49 +226,78 @@ html{
                                             color: $rojo;
                                             font-style: $fuentegrande;
                                                 }
-                                            .instagram{
-                                                animation-name: ampliarBotonIG;
-                                                animation-duration: 3s;
-                                                animation-delay: 0.4s;
-                                                animation-iteration-count: infinite;
-                                                color: $blanco;
-                                                font-size: $fuentemediana;
-                                                font-family: $fuentetextos;
-                                                font-style: $fuentebold;
-                                                }
-                                            .logoig{
-                                                display: flex;
-                                                flex-direction: column;
-                                                align-items: left;
-                                                width: 1%;
-                                                height: 1%;
                                             }
-                                                @keyframes ampliarBotonIG{
-                                                    0%{
-                                                        transform: scale(1, 1);
-                                                    }
-                                                    25%{
-                                                        transform: scale(1.1, 1.1);
-                                                    }
-                                                    50%{
-                                                        transform: scale(1.2, 1.2);
-                                                    }
-                                                    75%{
-                                                        transform: scale(1.3, 1.3);
-                                                    }
-                                                    100%{
-                                                        transform: scale(1, 1);
-                                                    }
-                                                }
-                                    }
-                                    }
+                                        }
                                     }
                                 }
                             }
-                        }
-                    
-                
-            
+        footer{
+            .enlacespaginas{
+                display: flex;
+                margin-top: 1rem;
+                ul{
+                    background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
+                    list-style-type: none;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 1rem;
+                    li{
+                        display: flex;        
+                        a{
+                            padding: 2rem;
+                            font-style: $fuentegrande;
+                            transition: font-style 3s;
+                            font-weight: $fuentebold;
+                            text-decoration: none;
+                            display: flex;
+                            color: $amarillo;
+                            font-size: $fuentegrande;
+                                &:hover{
+                                    color: $rojo;
+                                    font-style: $fuentegrande;
+                                }
+                                .instagram{
+                                animation-name: ampliarBotonIG;
+                                animation-duration: 3s;
+                                animation-delay: 0.4s;
+                                animation-iteration-count: infinite;
+                                color: $blanco;
+                                font-size: $fuentemediana;
+                                font-family: $fuentetextos;
+                                font-style: $fuentebold;
+                                }
+                                .logoig{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: left;
+                                width: 1%;
+                                height: 1%;
+                                }
+                                @keyframes ampliarBotonIG{
+                                    0%{
+                                        transform: scale(1, 1);
+                                    }
+                                    25%{
+                                        transform: scale(1.1, 1.1);
+                                    }
+                                    50%{
+                                        transform: scale(1.2, 1.2);
+                                    }
+                                    75%{
+                                        transform: scale(1.3, 1.3);
+                                    }
+                                    100%{
+                                        transform: scale(1, 1);
+                                    }
+                                }
+                    }
+                    }
+                    }
+                }
+            }
+        }                
         /*TABLET GRAL*/
         @media screen and (min-width:768px) and (max-width:1023px){
         font-size: 62.5%;
