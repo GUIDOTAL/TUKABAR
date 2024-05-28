@@ -755,10 +755,9 @@ html {
   html body .enlacespaginas footer {
     display: flex;
     margin-top: 1rem;
-    background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
+    background-image: linear-gradient(to bottom, #243705, #464800, #745300, #ac5500, #eb4912);
   }
   html body .enlacespaginas footer ul {
-    background-image: radial-gradient(circle, #370533, #5e0a4c, #8a0e63, #b91076, #eb1285);
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -784,6 +783,9 @@ html {
     font-style: larger;
   }
   html body .enlacespaginas footer .instagram {
+    display: inline;
+    display: flex;
+    align-items: left;
     animation-name: ampliarBotonIG;
     animation-duration: 3s;
     animation-delay: 0.4s;
@@ -810,11 +812,12 @@ html {
       transform: scale(1, 1);
     }
   }
-  html body .enlacespaginas footer .instagram .logoig {
+  html body .enlacespaginas footer .logoig {
+    display: inline;
     display: flex;
     flex-direction: left;
     align-items: left;
-    width: 2%;
-    height: 2%;
+    width: 1%;
+    height: 1%;
   }
 }/*# sourceMappingURL=styles.css.map */
