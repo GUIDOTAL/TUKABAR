@@ -676,14 +676,14 @@ html {
   html body footer .divdelinstagram {
     display: block;
   }
-  html body footer .instagram {
+  html body footer .divdelinstagram .instagram {
     display: flex;
     align-items: left;
     animation-name: ampliarBotonIG;
     animation-duration: 3s;
     animation-delay: 0.4s;
     animation-iteration-count: infinite;
-    color: white;
+    color: yellow;
     font-size: medium;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-style: bold;
@@ -705,11 +705,11 @@ html {
       transform: scale(1, 1);
     }
   }
-  html body footer .logoig {
+  html body footer .divdelinstagram .logoig {
     display: block;
     display: flex;
-    flex-direction: left;
-    align-items: left;
+    flex-direction: center;
+    align-items: center;
     width: 2%;
     height: 2%;
   }

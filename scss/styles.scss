@@ -203,15 +203,14 @@ html{
                                     }
                                     .divdelinstagram{
                                         display:block;
-                                    }    
-                                    .instagram{
+                                                .instagram{
                                                 display:flex;
                                                 align-items: left;
                                                 animation-name: ampliarBotonIG;
                                                 animation-duration: 3s;
                                                 animation-delay: 0.4s;
                                                 animation-iteration-count: infinite;
-                                                color: $blanco;
+                                                color: $amarillo;
                                                 font-size: $fuentemediana;
                                                 font-family: $fuentetextos;
                                                 font-style: $fuentebold;
@@ -236,11 +235,12 @@ html{
                                                 .logoig{
                                                     display:block;
                                                     display:flex;
-                                                    flex-direction: left;
-                                                    align-items: left;
+                                                    flex-direction: center;
+                                                    align-items: center;
                                                     width: 2%;
                                                     height: 2%;
                                                 }
+                                            }
                                     }
                                     }
                                 }
