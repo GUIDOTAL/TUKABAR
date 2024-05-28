@@ -3,24 +3,24 @@
 .grid-headerubicacion{
     grid-area: header;
     border-radius: 0.5rem;
-    .parrafomapaubicacion{
-    font-size: $fuentemediana;
-    background-image: linear-gradient(to left, #053707, #00503a, #00697b, #007cbe, #1285eb);
-    transform: rotate(360deg);
-    color: $blanco;
-    font-family: $fuentetextos;
-    font-size: $fuentechica;
-    font-style: normal;
-    .mapitaubicacion{
-    height: 75%;
-    transform: scale(2,1);
-    }
-} 
 }  
 .grid-mainubicacion{
     grid-area: cuerpo;
     border-radius: 0.5rem;
     align-items: center;
+        .parrafomapaubicacion{
+        font-size: $fuentemediana;
+        background-image: linear-gradient(to left, #053707, #00503a, #00697b, #007cbe, #1285eb);
+        transform: rotate(360deg);
+        color: $blanco;
+        font-family: $fuentetextos;
+        font-size: $fuentechica;
+        font-style: normal;
+        .mapitaubicacion{
+        height: 75%;
+        transform: scale(2,1);
+        }
+    } 
     }
     .grid-footerubicacion{
     grid-area: pie;

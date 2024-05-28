@@ -53,7 +53,7 @@
   width: 89%;
   border-radius: 1rem;
 }
-.grid-ubicacionindex p .mapitaindex {
+.grid-ubicacionindex .mapitaindex {
   display: flex;
   flex-direction: column;
   transform: scale(2, 1);
@@ -133,7 +133,7 @@
   width: 100%;
   border-radius: 1rem;
 }
-.grid-ubicacionindex p .mapitaindex {
+.grid-ubicacionindex .mapitaindex {
   display: flex;
   align-self: baseline;
   align-content: center;
@@ -212,7 +212,7 @@
   width: 100%;
   border-radius: 1rem;
 }
-.grid-ubicacionindex p .mapitaindex {
+.grid-ubicacionindex .mapitaindex {
   display: flex;
   align-self: baseline;
   align-content: center;
@@ -235,8 +235,6 @@
 
 .grid-footer {
   grid-area: pie;
-  background-color: grey;
-  color: white;
   border-radius: 4rem;
 }
 
@@ -256,22 +254,6 @@
   grid-area: headergaleria;
   border-radius: 2rem;
 }
-.grid-headergaleria .titulogaleria {
-  border-radius: 2rem;
-  width: 100%;
-  justify-items: center;
-  color: white;
-  justify-content: center;
-  align-items: center;
-}
-.grid-headergaleria .titulogaleria h2 {
-  font-size: 6rem;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  margin-bottom: 0.5rem;
-}
 
 .grid-tituloyfotogaleria {
   grid-area: tituloyfotogaleria;
@@ -280,6 +262,22 @@
   margin-bottom: 0.5rem;
   justify-self: center;
   align-self: center;
+}
+.grid-tituloyfotogaleria .titulogaleria {
+  border-radius: 2rem;
+  width: 100%;
+  justify-items: center;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.grid-tituloyfotogaleria .titulogaleria h2 {
+  font-size: 6rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 0.5rem;
 }
 
 .grid-footergaleria {
@@ -304,20 +302,6 @@
   grid-area: headerproductos;
   border-radius: 1rem;
 }
-.grid-headerproductos .tituloproductos {
-  border-radius: 2rem;
-  width: 100%;
-  justify-items: center;
-  color: white;
-}
-.grid-headerproductos .tituloproductos h2 .tituloproductos {
-  font-size: 6rem;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 0.5rem;
-}
 
 .grid-tituloyfotosproductos {
   grid-area: tituloyfotosproductos;
@@ -326,6 +310,20 @@
   margin-bottom: 0.5rem;
   justify-self: center;
   align-self: center;
+}
+.grid-tituloyfotosproductos .tituloproductos {
+  border-radius: 2rem;
+  width: 100%;
+  justify-items: center;
+}
+.grid-tituloyfotosproductos .tituloproductos h2 {
+  font-size: 6rem;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 0.5rem;
 }
 
 .grid-footerproductos {
@@ -352,20 +350,6 @@
   border-radius: 1rem;
   color: white;
 }
-.grid-headerpromos .titulopromos {
-  border-radius: 2rem;
-  width: 100%;
-  justify-items: center;
-  font-size: 6rem;
-}
-.grid-headerpromos .titulopromos h2 .titulopromos {
-  font-size: 10rem;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 0.5rem;
-}
 
 .grid-tituloyfotospromos {
   grid-area: tituloyfotospromos;
@@ -374,6 +358,21 @@
   margin-bottom: 0.5rem;
   justify-self: center;
   align-self: center;
+}
+.grid-tituloyfotospromos .titulopromos {
+  border-radius: 2rem;
+  width: 100%;
+  justify-items: center;
+  font-size: 6rem;
+}
+.grid-tituloyfotospromos .titulopromos h2 {
+  font-size: 10rem;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 0.5rem;
 }
 
 .grid-footerpromos {
@@ -399,20 +398,6 @@
   grid-area: headerpromos;
   border-radius: 1rem;
 }
-.grid-headerpromos .titulopromos {
-  border-radius: 2rem;
-  width: 100%;
-  justify-items: center;
-  color: white;
-}
-.grid-headerpromos .titulopromos h2 .titulopromos {
-  font-size: 6rem;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  margin-bottom: 0.5rem;
-}
 
 .grid-tituloyfotospromos {
   grid-area: tituloyfotospromos;
@@ -421,6 +406,21 @@
   margin-bottom: 0.5rem;
   justify-self: center;
   align-self: center;
+}
+.grid-tituloyfotospromos .titulopromos {
+  border-radius: 2rem;
+  width: 100%;
+  justify-items: center;
+  color: white;
+}
+.grid-tituloyfotospromos .titulopromos h2 {
+  font-size: 6rem;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 0.5rem;
 }
 
 .grid-footerpromos {
@@ -446,7 +446,13 @@
   grid-area: header;
   border-radius: 0.5rem;
 }
-.grid-headerubicacion .parrafomapaubicacion {
+
+.grid-mainubicacion {
+  grid-area: cuerpo;
+  border-radius: 0.5rem;
+  align-items: center;
+}
+.grid-mainubicacion .parrafomapaubicacion {
   font-size: medium;
   background-image: linear-gradient(to left, #053707, #00503a, #00697b, #007cbe, #1285eb);
   transform: rotate(360deg);
@@ -455,15 +461,9 @@
   font-size: small;
   font-style: normal;
 }
-.grid-headerubicacion .parrafomapaubicacion .mapitaubicacion {
+.grid-mainubicacion .parrafomapaubicacion .mapitaubicacion {
   height: 75%;
   transform: scale(2, 1);
-}
-
-.grid-mainubicacion {
-  grid-area: cuerpo;
-  border-radius: 0.5rem;
-  align-items: center;
 }
 
 .grid-footerubicacion {

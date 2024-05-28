@@ -2,22 +2,6 @@
 .grid-headergaleria{
     grid-area: headergaleria;
     border-radius: 2rem;
-    .titulogaleria{
-        border-radius: 2rem;
-        width: 100%;
-        justify-items: center;
-        color: $blanco;
-        justify-content: center;
-        align-items: center;
-    h2{
-        font-size:6rem;
-        font-family: $fuentetextos; 
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        margin-bottom: 0.5rem;
-    }
-}
 }
     .grid-tituloyfotogaleria{
         grid-area: tituloyfotogaleria;
@@ -26,6 +10,22 @@
         margin-bottom: 0.5rem;
         justify-self: center;
         align-self: center;
+            .titulogaleria{
+                border-radius: 2rem;
+                width: 100%;
+                justify-items: center;
+                color: $blanco;
+                justify-content: center;
+                align-items: center;
+                    h2{
+                        font-size:6rem;
+                        font-family: $fuentetextos; 
+                        display: flex;
+                        width: 100%;
+                        justify-content: center;
+                        margin-bottom: 0.5rem;
+        }
+    }
 }
     .grid-footergaleria{
         grid-area: piegaleria;
