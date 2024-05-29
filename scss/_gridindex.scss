@@ -195,68 +195,68 @@ grid-row-gap: 1rem;
 /*PC*/
 
 /*GRID INDEX PC*/
-.grid-header{
-    grid-area: header;
-    border-radius: 2rem;
-    /* margin-left: 0.5rem; */
-}
-.grid-foto{
-    grid-area: foto;
-    display: flex;
-    flex-direction: column;
-    padding: none;
-    border-style: inherit;
-        .fotobarmanindex{
-        height: 100%;
-        border-radius: 2rem;
-}
-}
-.grid-ubicacionindex{
-    grid-area: mapatexto;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-        p{
-            display: flex;
-            background-color: $negro;
-            color: $blanco;
-            font-family: $fuentetextos;
-            font-size: $fuentechica;
-            font-style: normal;
-            text-align:left;
-            justify-content:left;
-            align-items:normal;
-            margin-left: 0.5rem;
-            padding: 4rem;
-            width: 100%;
-            border-radius: 1rem;
-        }
-        .mapitaindex{
-            display:flex;
-            align-self: baseline;
-            align-content: center;
-            width: 100%;
-            height: 74%;
-            align-items: right;
-            margin: 0.5rem;
-            width: 100%;
-            height: 74%;
-            border-radius: 1rem;
-}
-}
-.grid-videomusica{
-    grid-area: video; 
-        .videomusicaindex{
-            height: 100%;
-            border-radius: 1rem;
-}
-}
-.grid-footer{
-    grid-area: pie;
-    // background-color: $gris;
-    // color: $blanco;
-    border-radius: 4rem;
-}
+// .grid-header{
+//     grid-area: header;
+//     border-radius: 2rem;
+//     /* margin-left: 0.5rem; */
+// }
+// .grid-foto{
+//     grid-area: foto;
+//     display: flex;
+//     flex-direction: column;
+//     padding: none;
+//     border-style: inherit;
+//         .fotobarmanindex{
+//         height: 100%;
+//         border-radius: 2rem;
+// }
+// }
+// .grid-ubicacionindex{
+//     grid-area: mapatexto;
+//     display: flex;
+//     flex-direction: row;
+//     width: 100%;
+//         p{
+//             display: flex;
+//             background-color: $negro;
+//             color: $blanco;
+//             font-family: $fuentetextos;
+//             font-size: $fuentechica;
+//             font-style: normal;
+//             text-align:left;
+//             justify-content:left;
+//             align-items:normal;
+//             margin-left: 0.5rem;
+//             padding: 4rem;
+//             width: 100%;
+//             border-radius: 1rem;
+//         }
+//         .mapitaindex{
+//             display:flex;
+//             align-self: baseline;
+//             align-content: center;
+//             width: 100%;
+//             height: 74%;
+//             align-items: right;
+//             margin: 0.5rem;
+//             width: 100%;
+//             height: 74%;
+//             border-radius: 1rem;
+// }
+// }
+// .grid-videomusica{
+//     grid-area: video; 
+//         .videomusicaindex{
+//             height: 100%;
+//             border-radius: 1rem;
+// }
+// }
+// .grid-footer{
+//     grid-area: pie;
+//     // background-color: $gris;
+//     // color: $blanco;
+//     border-radius: 4rem;
+// }
 
 .contenedorgeneralindex{
     grid-template-columns: 1.5fr 1.5fr;
@@ -272,4 +272,67 @@ grid-row-gap: 1rem;
     "pie pie"
     ;
     grid-row-gap: 1rem;
+    .grid-header{
+        grid-area: header;
+        border-radius: 2rem;
+        /* margin-left: 0.5rem; */
+    }
+    .grid-foto{
+        grid-area: foto;
+        display: flex;
+        flex-direction: column;
+        padding: none;
+        border-style: inherit;
+            .fotobarmanindex{
+            height: 100%;
+            border-radius: 2rem;
+    }
+    }
+    .grid-ubicacionindex{
+        grid-area: mapatexto;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+            p{
+                display: flex;
+                background-color: $negro;
+                color: $blanco;
+                font-family: $fuentetextos;
+                font-size: $fuentechica;
+                font-style: normal;
+                text-align:left;
+                justify-content:left;
+                align-items:normal;
+                margin-left: 0.5rem;
+                padding: 4rem;
+                width: 100%;
+                border-radius: 1rem;
+            }
+            .mapitaindex{
+                display:flex;
+                align-self: baseline;
+                align-content: center;
+                width: 100%;
+                height: 74%;
+                align-items: right;
+                margin: 0.5rem;
+                width: 100%;
+                height: 74%;
+                border-radius: 1rem;
+    }
+    }
+    .grid-videomusica{
+        grid-area: video; 
+            .videomusicaindex{
+                height: 100%;
+                border-radius: 1rem;
+    }
+    }
+        .grid-footer{
+        grid-area: pie;
+        // background-color: $gris;
+        // color: $blanco;
+        border-radius: 4rem;
+    }
+
 }
