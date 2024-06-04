@@ -1,5 +1,4 @@
 /*GRID INDEX PC*/
-
     .contenedorgeneralindex{
         grid-template-columns: 1.5fr 1.5fr;
         grid-template-rows: 0.4fr 0.5fr 0.4fr 0.1fr;
@@ -64,20 +63,19 @@
                             }
                     }
                         .grid-videomusica{
-                         grid-area: video; 
-                            .videomusicaindex{
-                                 height: 100%;
-                                 border-radius: 1rem;
-                         }
-                     }
-                         .grid-footer{
-                         grid-area: pie;
-                         // background-color: $gris;
-                         // color: $blanco;
-                         border-radius: 4rem;
-                     }
-                 }
-         
+                            grid-area: video; 
+                                .videomusicaindex{
+                                    height: 100%;
+                                    border-radius: 1rem;
+                            }
+                        }
+                            .grid-footer{
+                                grid-area: pie;
+                                // background-color: $gris;
+                                // color: $blanco;
+                                border-radius: 4rem;
+                        }
+                }
 
 
 //     // .grid-header{

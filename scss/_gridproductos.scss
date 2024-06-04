@@ -1,34 +1,4 @@
 /*GRID ESTRUCTURA PRODUCTOS PC*/
-.grid-headerproductos{
-    grid-area: headerproductos;
-    border-radius: 1rem;
-}
-.grid-tituloyfotosproductos{
-    grid-area: tituloyfotosproductos;
-    border-radius: 2rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    justify-self: center;
-    align-self: center;
-        .tituloproductos{
-            display: flex;
-            justify-content: center;
-            border-radius: 2rem;
-            width: 100%;
-            justify-items: center;
-            color:$blanco;
-                h2{
-                font-size:6rem;
-                font-family: $fuentetextos; 
-                width: 100%;
-                margin-bottom: 0.5rem;
-        }   
-    }
-}
-.grid-footerproductos{
-    grid-area: pieproductos;
-    border-radius: 2rem;
-}
 .contenedorgeneralproductos{
     display: grid;
     grid-template-columns: 1fr;
@@ -44,5 +14,35 @@
     ;
     grid-row-gap: 0.5rem;
     background-color: $negro;
-} 
-    
+        .grid-headerproductos{
+            grid-area: headerproductos;
+            border-radius: 1rem;
+        }
+            .grid-tituloyfotosproductos{
+                grid-area: tituloyfotosproductos;
+                border-radius: 2rem;
+                margin-top: 0.5rem;
+                margin-bottom: 0.5rem;
+                justify-self: center;
+                align-self: center;
+                    .tituloproductos{
+                        display: flex;
+                        justify-content: center;
+                        border-radius: 2rem;
+                        width: 100%;
+                        justify-items: center;
+                        color:$blanco;
+                            h2{
+                            font-size:6rem;
+                            font-family: $fuentetextos; 
+                            width: 100%;
+                            margin-bottom: 0.5rem;
+                        }   
+                    }
+        }
+                    .grid-footerproductos{
+                        grid-area: pieproductos;
+                        border-radius: 2rem;
+                    }
+    } 
+        

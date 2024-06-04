@@ -1,36 +1,5 @@
 /*GRID ESTRUCTURA PROMOS MOBILE*/
-.grid-headerpromos{
-    grid-area: headerpromos;
-    border-radius: 1rem;
-    color: $blanco;
-}
-.grid-tituloyfotospromos{
-    grid-area: tituloyfotospromos;
-    border-radius: 2rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    justify-self: center;
-    align-self: center;
-        .titulopromos{
-            border-radius: 2rem;
-            width: 100%;
-            justify-items: center;
-            font-size: 6rem;
-                h2{
-                    font-size:10rem;
-                    color:$blanco;
-                    font-family: $fuentetextos;
-                    display:flex;
-                    justify-content: center;
-                    width: 100%;
-                    margin-bottom: 0.5rem;
-        }
-}
-}
-.grid-footerpromos{
-    grid-area: piepromos;
-    border-radius: 2rem;
-}
+
 .contenedorgeneralpromos{
     display: grid;
     grid-template-columns: 1fr;
@@ -43,43 +12,45 @@
     "headerpromos"
     "tituloyfotospromos" 
     "piepromos"
-;
+    ;
     grid-row-gap: 0.5rem;
-    background-color: $rojo
-} 
-
-/*GRID ESTRUCTURA PROMOS PC*/
-.grid-headerpromos{
-    grid-area: headerpromos;
-    border-radius: 1rem;
-}    
-    .grid-tituloyfotospromos{
-        grid-area: tituloyfotospromos;
-        border-radius: 2rem;
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
-        justify-self: center;
-        align-self: center;
+    background-color: $rojo;
+        .grid-headerpromos{
+            grid-area: headerpromos;
+            border-radius: 1rem;
+            color: $blanco;
+        }
+        .grid-tituloyfotospromos{
+            grid-area: tituloyfotospromos;
+            border-radius: 2rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            justify-self: center;
+            align-self: center;
             .titulopromos{
                 border-radius: 2rem;
                 width: 100%;
                 justify-items: center;
-                color: $blanco;
+                font-size: 6rem;
                     h2{
-                    font-size:6rem;
-                    color:$blanco;
-                    font-family: $fuentetextos;
-                    display:flex;
-                    justify-content: center;
-                    width: 100%;
-                    margin-bottom: 0.5rem;
-        }
-        }
-        }
+                        font-size:10rem;
+                        color:$blanco;
+                        font-family: $fuentetextos;
+                        display:flex;
+                        justify-content: center;
+                        width: 100%;
+                        margin-bottom: 0.5rem;
+                    }
+            }
+    }
     .grid-footerpromos{
         grid-area: piepromos;
         border-radius: 2rem;
     }
+} 
+
+/*GRID ESTRUCTURA PROMOS PC*/
+
     .contenedorgeneralpromos{
         display: grid;
         grid-template-columns: 1fr;
@@ -95,5 +66,36 @@
         ;
         grid-row-gap: 0.5rem;
         background-color: $negro;
+            .grid-headerpromos{
+                grid-area: headerpromos;
+                border-radius: 1rem;
+                }    
+                .grid-tituloyfotospromos{
+                    grid-area: tituloyfotospromos;
+                    border-radius: 2rem;
+                    margin-top: 0.5rem;
+                    margin-bottom: 0.5rem;
+                    justify-self: center;
+                    align-self: center;
+                        .titulopromos{
+                            border-radius: 2rem;
+                            width: 100%;
+                            justify-items: center;
+                            color: $blanco;
+                                h2{
+                                    font-size:6rem;
+                                    color:$blanco;
+                                    font-family: $fuentetextos;
+                                    display:flex;
+                                    justify-content: center;
+                                    width: 100%;
+                                    margin-bottom: 0.5rem;
+                            }
+                        }
+                }
+                                .grid-footerpromos{
+                                    grid-area: piepromos;
+                                    border-radius: 2rem;
+                    }
     }
     

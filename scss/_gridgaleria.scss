@@ -1,70 +1,69 @@
 /*GRID GALERIA PC*/
-.grid-headergaleria{
-    grid-area: headergaleria;
-    border-radius: 2rem;
-}
-    .grid-tituloyfotogaleria{
-        grid-area: tituloyfotogaleria;
-        border-radius: 2rem;
+    .contenedorgeneralgaleria{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.4fr 0.5fr auto;
+        margin-left: 0.5rem;
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
-        justify-self: center;
-        align-self: center;
-            .titulogaleria{
+        margin-right: auto;
+        grid-template-areas:
+        "headergaleria"
+        "tituloyfotogaleria"
+        "piegaleria"
+        ;
+        grid-row-gap: 1rem;
+        background-color: $negro;
+            .grid-headergaleria{
+                grid-area: headergaleria;
                 border-radius: 2rem;
-                width: 100%;
-                justify-items: center;
-                color: $blanco;
-                justify-content: center;
-                align-items: center;
-                    h2{
-                        font-size:6rem;
-                        font-family: $fuentetextos; 
-                        display: flex;
-                        width: 100%;
-                        justify-content: center;
-                        margin-bottom: 0.5rem;
+            }
+                .grid-tituloyfotogaleria{
+                    grid-area: tituloyfotogaleria;
+                    border-radius: 2rem;
+                    margin-top: 0.5rem;
+                    margin-bottom: 0.5rem;
+                    justify-self: center;
+                    align-self: center;
+                        .titulogaleria{
+                            border-radius: 2rem;
+                            width: 100%;
+                            justify-items: center;
+                            color: $blanco;
+                            justify-content: center;
+                            align-items: center;
+                                h2{
+                                    font-size:6rem;
+                                    font-family: $fuentetextos; 
+                                    display: flex;
+                                    width: 100%;
+                                    justify-content: center;
+                                    margin-bottom: 0.5rem;
+                            }
+                    }
+            }
+            .grid-footergaleria{
+                grid-area: piegaleria;
+                border-radius: 2rem;
+                // footer{
+                //     background-color:$gris;
+                //         h3{
+                //         color: $blanco;
+                //         font-size: $fuentemediana;
+                //         font-family: $fuentetextos;
+                //         font-style: $fuentebold;
+                //         display: flex;
+                //         padding: 1rem;
+                //         .instagram{
+                //         animation-name: ampliarBotonIG;
+                //         animation-duration: 3s;
+                //         animation-delay: 0.4s;
+                //         animation-iteration-count: infinite;
+                //         color: $blanco;
+                //         font-size: $fuentemediana;
+                //         font-family: $fuentetextos;
+                //         font-style: $fuentebold;
+                //         }
+                //     }
+                //     }
         }
-    }
-}
-    .grid-footergaleria{
-        grid-area: piegaleria;
-        border-radius: 2rem;
-        // footer{
-        //     background-color:$gris;
-        //         h3{
-        //         color: $blanco;
-        //         font-size: $fuentemediana;
-        //         font-family: $fuentetextos;
-        //         font-style: $fuentebold;
-        //         display: flex;
-        //         padding: 1rem;
-        //         .instagram{
-        //         animation-name: ampliarBotonIG;
-        //         animation-duration: 3s;
-        //         animation-delay: 0.4s;
-        //         animation-iteration-count: infinite;
-        //         color: $blanco;
-        //         font-size: $fuentemediana;
-        //         font-family: $fuentetextos;
-        //         font-style: $fuentebold;
-        //         }
-        //     }
-        //     }
-}
-    
-    .contenedorgeneralgaleria{
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr 0.5fr auto;
-    margin-left: 0.5rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-right: auto;
-    grid-template-areas:
-    "headergaleria"
-    "tituloyfotogaleria"
-    "piegaleria"
-    ;
-    grid-row-gap: 1rem;
-    background-color: $negro;
-    }
+        }

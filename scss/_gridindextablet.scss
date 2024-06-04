@@ -1,5 +1,4 @@
 /* GRID INDEX TABLET*/
-
 @media screen and (min-width:768px) and (max-width:1023px){
     .contenedorgeneralindex{
         grid-template-columns: 1.5fr 1.5fr;
@@ -73,12 +72,9 @@
                                         border-radius: 1rem;
                             }
                         }
-                .grid-footer{
-                    grid-area: pie;
-                    border-radius: 2rem;
-                //     footer{
-                //     background-color: $marron2;
-                // }
-                }
-            }
-        }
+                                    .grid-footer{
+                                        grid-area: pie;
+                                        border-radius: 2rem;
+                                }
+                        }
+                    }
