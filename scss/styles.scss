@@ -6,7 +6,9 @@
     max-width: 1200px;
 }
 @import 'variables';
-@import 'gridindex';
+@import 'gridindexmobile';
+@import 'gridindextablet';
+@import 'gridindexpc';
 @import 'gridgaleria';
 @import 'gridproductos';
 @import 'gridpromos';
@@ -244,7 +246,7 @@ html{
                                 }
         /*TABLET GRAL*/
         @media screen and (min-width:768px) and (max-width:1023px){
-        font-size: 62,5%;
+        // font-size: 62,5%;
         /* 1 rem = 10px */
             body{
                 overflow-x: hidden;
