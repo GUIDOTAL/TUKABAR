@@ -1,5 +1,4 @@
 /*GRID INDEX MOBILE*/
-@include mobile {
         .contenedorgeneralindex{
                 grid-template-columns: 1fr;
                 grid-template-rows: 0.4fr 0.2fr 0.6fr 0.6fr 0.1fr;
@@ -85,4 +84,4 @@
                                 border-radius: 2rem;
                     }
             }
-        }
+        

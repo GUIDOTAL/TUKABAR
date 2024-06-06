@@ -1,6 +1,5 @@
 /*GRID GALERIA PC*/
 .contenedorgeneralgaleria{
-    @include desktop {
             grid-template-columns: 1fr;
             grid-template-rows: 0.4fr 0.5fr auto;
             margin-left: 0.5rem;
@@ -48,4 +47,4 @@
                     border-radius: 2rem;
                 }
             }
-        }
+        
