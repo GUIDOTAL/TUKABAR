@@ -1,0 +1,30 @@
+Conni/Lucia!!! Les dejo escrito por aca mis comentarios sobre la entrega de este TP.
+
+Mi idea de estructurar mi sitio era la siguiente:
+5 HTML ( index + 4 paginas, galeria, contacto, producto, promos)
+Luego el css(que copia lo que yo voy
+volcando via SASS, por suerte se instalo bien y los cambios impactan)
+El repositorio local funciona bien, al igual que el github.
+Finalmente los distintos partials de SASS
+Rango de prioridad de los mismos:
+1°_variables (agrupo las variables que cree para luego trasladarlas a traves de @import)
+2°_styles en donde agrupo los estilos compartidos por todas las paginas. 
+3°_grid de las paginas(Aca es donde yace mi problema).
+Este punto es el que me robo mucho tiempo, muchisimo, que no pude dedicar a "embellecer"
+el trabajo. Al comienzo pense que era un tema de anidacion, pero no. Le di mil vueltas,
+primero probe armando por cada partials grid(dentro puse pc,mobile,tablet), luego
+trate, separandolos. Intente hacer mixin, luego de que me lo mencionara Gaston,
+pero no hubo caso porque no lo puedo aplicar ya que cada grid es especial
+y tiene sus particularidades.
+Al pasarlo a SASS me rompio las estructuras y estilos de mediaqueries
+que habia creado para el tp2.
+
+
+El trabajo esta hecho, los links funcionan, aplique algunas animaciones, 
+aplique SEO en las paginas, scss funciona, css funciona y reproduce lo que comando 
+en scss, github funciona bien. Pero la verdad quede trunco en eso que mencionaba
+anteriormente, el trabajo no quedo estetico y la verdad eso me genero mucha impotencia!!!
+
+Espero haberme hecho entender, cualquier cosa diganme y vuelvo a tratar de explicarlo.
+
+Gracias!Aguardo su feedback!
